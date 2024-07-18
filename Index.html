@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="Index.html">Abogado Corrales</a>
+      <h1 class="navbar-brand" href="Index.html">Abogado Corrales</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,30 +53,108 @@
       </div>
   </section>
 
-  
+
+  <section class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-lg-8">
+                <div class="text-center">
+                    <h2 class="mb-5">Servicios</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100">
+                            <img src="/img/Recursos_Amparo.jpg" class="card-img-top" alt="Recursos de Amparo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><i class="fas fa-gavel"></i> Recursos de Amparo</h5>
+                                <p class="card-text">Protege los derechos constitucionales ante autoridades públicas.</p>
+                                <a href="#" class="btn btn-primary stretched-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100">
+                            <img src="/img/Habeas_Corpus.png" class="card-img-top" alt="Habeas Corpus">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><i class="fas fa-balance-scale"></i> Habeas Corpus</h5>
+                                <p class="card-text">Ofrece asistencia legal a personas sin recursos en casos específicos.</p>
+                                <a href="#" class="btn btn-primary stretched-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100">
+                            <img src="/img/Escritos_Legales.png" class="card-img-top" alt="Escritos Legales">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><i class="fas fa-file-alt"></i> Escritos Legales</h5>
+                                <p class="card-text">Presenta argumentos legales en casos específicos de detención o encarcelamiento.</p>
+                                <a href="#" class="btn btn-primary stretched-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100">
+                            <img src="/img/Consultas en Obligaciones y Familia.jpg" class="card-img-top" alt="Consultas en Obligaciones y Familia">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><i class="fas fa-balance-scale-right"></i> Consultas en Obligaciones y Familia</h5>
+                                <p class="card-text">Asesoramiento legal en casos familiares y de obligaciones contractuales.</p>
+                                <a href="#" class="btn btn-primary stretched-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100">
+                            <img src="/img/Asistente Legal.png" class="card-img-top" alt="Asistente Legal">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><i class="fas fa-users"></i> Asistente Legal</h5>
+                                <p class="card-text">Ofrecemos orientación y representación legal accesible para personas con recursos limitados.</p>
+                                <a href="#" class="btn btn-primary stretched-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
   <section class="container py-5">
     <h2 class="text-center mb-4">Testimonios</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="testimonial">
-          <p>"Excelente abogado, muy profesional y dedicado. Me ayudó a resolver mi caso rápidamente."</p>
-          <p><strong>- Juan Pérez</strong></p>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial text-center">
+            <p>"Excelente abogado, muy profesional y dedicado. Me ayudó a resolver mi caso rápidamente."</p>
+            <p><strong>- Juan Pérez</strong></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial text-center">
+            <p>"Sebastián mostró un gran conocimiento y habilidad en mi caso. Muy recomendable."</p>
+            <p><strong>- María Gómez</strong></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial text-center">
+            <p>"Muy agradecido con su servicio. Resolutivo y siempre disponible para consultas."</p>
+            <p><strong>- Carlos Ramírez</strong></p>
+          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="testimonial">
-          <p>"Sebastián mostró un gran conocimiento y habilidad en mi caso. Muy recomendable."</p>
-          <p><strong>- María Gómez</strong></p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial">
-          <p>"Muy agradecido con su servicio. Resolutivo y siempre disponible para consultas."</p>
-          <p><strong>- Carlos Ramírez</strong></p>
-        </div>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
+
+
 
   <section class="container-fluid py-5 text-center bg-primary text-white">
     <h2>¿Necesitas Asesoría Legal?</h2>

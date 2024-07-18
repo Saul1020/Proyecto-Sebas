@@ -7,10 +7,27 @@
     --font-family: Arial, sans-serif;
 }
 /* Estilo para el index (Seccion)*/
-
 .imgSeccion{
     border-radius: 10px
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .card {
+    width: 100%; 
+    max-width: 18rem; 
+  }
+
+
+/* Color del boton carousel*/
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
 
 
 
@@ -37,12 +54,12 @@ footer {
 .social-icons .instagram { color: #e4405f; }
 
 .footer-links a {
-    color: white; /* Color blanco para los enlaces */
-    text-decoration: none; /* Para quitar el subrayado de los enlaces */
+    color: white; 
+    text-decoration: none; 
 }
 
 .footer-links a:hover {
-    color: #fc2424; /* Color cuando se pasa el cursor */
+    color: #fc2424; 
 }
 
 .footer-bottom {
@@ -52,10 +69,10 @@ footer {
 }
 
 .aEnlace {
-    color: white; /* Color blanco para los enlaces */
-    text-decoration: none; /* Para quitar el subrayado de los enlaces */
+    color: white; 
+    text-decoration: none; 
 }
 
 .aEnlace:hover {
-    color: #fc2424; /* Color rojo cuando se pasa el cursor */
+    color: #fc2424; 
 }
