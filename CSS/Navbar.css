@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.navbar-custom {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  color: #666666;
+  font-size: 1rem;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url('path/to/your/icon.svg');
+}
+
+@media (max-width: 991.98px) {
+  .navbar-custom {
+    background-color: #ffffff;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}

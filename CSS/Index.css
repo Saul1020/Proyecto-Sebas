@@ -1,0 +1,75 @@
+
+/* Estilo para el index (Servicios)*/
+.imgSeccion{
+    border-radius: 10px
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%; 
+    max-width: 18rem; 
+  }
+
+
+/* Tabla */
+
+
+/* Asesiria */
+.cta-section {
+    background-color: #f8f9fa; /* Azul profundo para el fondo */
+    color: #000000;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+
+  .cta-section h2 {
+    font-size: 2.25rem; /* Tamaño del título */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .cta-section p {
+    font-size: 1.15rem; /* Tamaño del texto */
+    margin-bottom: 25px;
+    max-width: 500px; /* Ancho máximo del texto */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-button {
+    background-color: #93a393; /* Verde oscuro */
+    color: #000000;
+    border: none;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px; /* Bordes redondeados */
+    font-size: 1.125rem; /* Tamaño del texto del botón */
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+  }
+
+  .cta-button:hover,
+  .cta-button:focus {
+    background-color: #513d97; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+  }
+
+  .cta-button:active {
+    transform: scale(0.98); /* Efecto de pulsación */
+  }
+
+
+
+
+/* Color del boton carousel*/
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }

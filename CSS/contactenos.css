@@ -1,0 +1,115 @@
+
+/* Parte del Contactenos */
+
+/* header */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    color: #6c757d;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  /* Parte del formulario y de Whatsapp*/
+  
+  /* Whatsapp */
+  .contact-info i {
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  .contact-info p {
+    font-size: 1.2rem;
+  }
+  .contact-info .d-flex {
+    margin-bottom: 15px;
+  }
+  .card-whatsapp {
+    background-color: #25D366;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .card-whatsapp .btn-success {
+    background-color: white;
+    color: #25D366;
+    border: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Formulario */
+  .form-contact {
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 50px;
+    margin: 30px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-contact h3 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .form-contact .form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+  }
+  
+  .form-contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .form-contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+  }
+  
+  .form-contact .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-contact .btn-primary:active {
+    background-color: #003f7f;
+  }
+  
+  .form-contact .form-text {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .form-contact .form-control::placeholder {
+    color: #999;
+  }

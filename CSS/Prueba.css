@@ -1,0 +1,68 @@
+/* Importar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+/* Estilo de la barra de navegación */
+.navbar-custom {
+  background-color: #ffffff; /* Fondo blanco para un aspecto limpio */
+  border-bottom: 1px solid #e0e0e0; /* Línea delgada y sutil para separar la barra del contenido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para un efecto flotante */
+  position: relative; /* Navbar se desplaza con el contenido */
+  top: 0; /* Alinear al borde superior */
+  left: 0; /* Alinear al borde izquierdo */
+  width: 100%; /* Ancho completo */
+  z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif; /* Fuente moderna y elegante */
+  font-size: 1.5rem; /* Tamaño de fuente adecuado */
+  color: #333333; /* Texto gris oscuro para un contraste suave */
+  font-weight: 600; /* Peso de fuente ligeramente más fuerte */
+  letter-spacing: 0.5px; /* Espaciado entre letras para una apariencia refinada */
+  text-transform: capitalize; /* Mantener las mayúsculas y minúsculas del texto */
+  transition: color 0.3s ease; /* Transición suave para cambios de color */
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Color azul claro al pasar el cursor */
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif; /* Fuente moderna y elegante */
+  color: #666666; /* Texto gris claro para los enlaces */
+  font-size: 1rem; /* Tamaño de fuente adecuado para los enlaces */
+  margin: 0 1rem; /* Espaciado horizontal entre los enlaces */
+  padding: 0.5rem 0; /* Espaciado vertical en los enlaces */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para color y efecto de escala */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Cambio de color al pasar el cursor */
+  text-decoration: none; /* Sin subrayado al pasar el cursor */
+  transform: scale(1.1); /* Efecto de escala al pasar el cursor para interactividad */
+}
+
+.navbar-toggler {
+  border: 1px solid #ddd; /* Borde del botón de menú */
+  border-radius: 0.25rem; /* Bordes redondeados para el botón */
+  background-color: transparent; /* Fondo transparente para un aspecto moderno */
+}
+
+.navbar-toggler-icon {
+  background-image: url('path/to/your/icon.svg'); /* Icono personalizado para el botón de menú */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-custom {
+    background-color: #ffffff; /* Asegurarse de que el fondo se mantenga blanco en dispositivos móviles */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Centrar los enlaces en dispositivos móviles */
+  }
+
+  .nav-link {
+    display: block;
+    margin: 0.5rem 0; /* Espaciado vertical en dispositivos móviles */
+  }
+}

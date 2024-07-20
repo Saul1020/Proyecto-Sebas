@@ -1,0 +1,44 @@
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+    color: white;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.social-icons a:hover {
+    color: #fc2424;
+}
+
+.social-icons .facebook { color: #3b5998; }
+.social-icons .twitter { color: #1da1f2; }
+.social-icons .linkedin { color: #0077b5; }
+.social-icons .instagram { color: #e4405f; }
+
+.footer-links a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer-links a:hover {
+    color: #fc2424; 
+}
+
+.footer-bottom {
+    border-top: 1px solid #dcdcdc;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.aEnlace {
+    color: white; 
+    text-decoration: none; 
+}
+
+.aEnlace:hover {
+    color: #fc2424; 
+}
