@@ -4,129 +4,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/Navbar.css">
-    <link rel="stylesheet" href="/CSS/Index.css">
-    <link rel="stylesheet" href="/CSS/contactenos.css">
-    <link rel="stylesheet" href="/CSS/footer.css">
-    <link rel="stylesheet" href="/CSS/Prueba.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/Prueba.css">
     <title>Abogado</title>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-          <a class="navbar-brand" href="Index.html">Abogado Corrales</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="Index.html">Inicio</a>
-              <a class="nav-link" href="Servicios.html">Servicios</a>
-              <a class="nav-link" href="#">Precios</a>
-              <a class="nav-link" href="Contactenos.html">Contactenos</a>
+            <a class="navbar-brand" href="Index.html">Abogado Corrales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="Index.html">Inicio</a>
+                    <a class="nav-link" href="Servicios.html">Servicios</a>
+                    <a class="nav-link" href="#">Precios</a>
+                    <a class="nav-link" href="Contactenos.html">Contáctenos</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
-      
-      
-      
-
-
-    <section class="container-fluid  py-5">
-        <div class="container text-center contact-section">
-            <h2>Contáctenos</h2>
-            <p>Estamos aquí para ayudarte. Completa el formulario o utiliza uno de nuestros métodos de contacto.</p>
-        </div>
-    </section>
+    </nav>
     
 
 
-    <section class="container py-5 mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-5 mb-4">
-                <h2 class="text-center mb-3">Información de Contacto</h2>
-                <div class="contact-info text-center">
-                    <div class="d-flex justify-content-center align-items-center mb-3">
-                        <p><i class="fas fa-phone"></i><strong>Teléfono:</strong> +123 456 7890</p>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center mb-3">
-                        <p><i class="fas fa-envelope"></i><strong>Correo Electrónico:</strong> contacto@bufetellegal.com</p>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center mb-3">
-                        <p><i class="fas fa-map-marker-alt"></i><strong>Dirección:</strong> Calle Ejemplo 123, Oficina 456, Ciudad, País</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <h2 class="text-center mb-3">Horarios de Atención</h2>
-                <div class="text-center">
-                    <p>Lunes - Viernes: 9:00 AM - 6:00 PM</p>
-                    <p>Consultas fuera de horario disponibles previa cita.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
-    <section class="container-fluid py-5">
+
+
+
+
+    <!-- Sección de Servicios -->
+    <section class="container-fluid bg-light py-5">
         <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-10">
-                    <div class="card-whatsapp text-center mb-5">
-                        <h5 class="card-title">Contáctame en WhatsApp</h5>
-                        <p class="card-text">Puedes contactarme directamente a través de WhatsApp para cualquier consulta o información adicional.</p>
-                        <a href="https://wa.me/50661803558" class="btn btn-success">
-                            <img src="/img/logos--whatsapp-icon.png" alt="WhatsApp"
-                                        style="width: 24px; margin-right: 8px;"> Enviar mensaje
-                        </a>
+            <h2 class="text-center mb-5">Servicios</h2>
+            <div class="row">
+                <!-- Recurso de Amparo -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <h2><i class="fas fa-gavel"></i> Recursos de Amparo</h2>
+                    <p>Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
+                        constitucionales de una persona que considera que están siendo vulnerados por alguna autoridad
+                        pública.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amparoModal">Más
+                        información</a>
+                </div>
+
+                <!-- Modal de Recurso de Amparo -->
+                <div class="modal fade" id="amparoModal" tabindex="-1" aria-labelledby="amparoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="amparoModalLabel">Recursos de Amparo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Descripción</h3>
+                                <p>El recurso de amparo es una herramienta legal fundamental para la protección de los
+                                    derechos fundamentales consagrados en la Constitución. Nuestro equipo se encarga de
+                                    presentar y dar seguimiento a estos recursos, garantizando una defensa efectiva de
+                                    los derechos de nuestros clientes.</p>
+
+                                <h3>Casos de Éxito</h3>
+                                <ul>
+                                    <li><strong>Caso 1:</strong> Protección de derechos laborales en un conflicto con
+                                        una entidad gubernamental.</li>
+                                    <li><strong>Caso 2:</strong> Defensa de derechos de propiedad ante expropiaciones
+                                        ilegales.</li>
+                                </ul>
+
+                                <h3>Testimonios</h3>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Gracias al equipo de CorralesAbogado, mis derechos fueron
+                                        defendidos con éxito en un recurso de amparo."</p>
+                                    <footer class="blockquote-footer">Cliente satisfecho</footer>
+                                </blockquote>
+
+                                <h3>FAQ</h3>
+                                <div class="accordion" id="amparoFAQ">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                ¿Qué es un recurso de amparo?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#amparoFAQ">
+                                            <div class="accordion-body">
+                                                Un recurso de amparo es una acción legal utilizada para proteger los
+                                                derechos constitucionales de una persona que considera que están siendo
+                                                vulnerados.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                ¿Cuánto tiempo toma un proceso de amparo?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#amparoFAQ">
+                                            <div class="accordion-body">
+                                                El tiempo puede variar dependiendo de la complejidad del caso y la carga
+                                                de trabajo del tribunal, pero generalmente toma entre tres y seis meses.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3>Recursos Adicionales</h3>
+                                <ul>
+                                    <li><a href="#">Guía para presentar un recurso de amparo</a></li>
+                                    <li><a href="#">Ejemplos de casos exitosos</a></li>
+                                </ul>
+
+                                <h3>Video Informativo</h3>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"
+                                        src="https://www.youtube.com/embed/example_video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="form-contact p-4">
-                        <h3 class="text-center mb-4">Formulario</h3>
-                        <form>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" required>
+
+                <!-- Otros servicios siguen un formato similar -->
+
+                <!-- Habeas Corpus -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <h2><i class="fas fa-balance-scale"></i> Habeas Corpus</h2>
+                    <p>Podría referirse a programas o servicios de asistencia legal ofrecidos a personas que no pueden
+                        costear servicios de abogados privados, proporcionándoles orientación y representación legal en
+                        ciertos casos.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#habeasCorpusModal">Más
+                        información</a>
+                </div>
+
+                <!-- Modal de Habeas Corpus -->
+                <div class="modal fade" id="habeasCorpusModal" tabindex="-1" aria-labelledby="habeasCorpusModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="habeasCorpusModalLabel">Habeas Corpus</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electronico" required>
+                            <div class="modal-body">
+                                <h3>Descripción</h3>
+                                <p>El habeas corpus es una acción legal que protege a las personas contra detenciones y
+                                    encarcelamientos ilegales. Nuestro equipo se especializa en la presentación y
+                                    defensa de habeas corpus para garantizar la libertad y los derechos de nuestros
+                                    clientes.</p>
+
+                                <h3>Casos de Éxito</h3>
+                                <ul>
+                                    <li><strong>Caso 1:</strong> Liberación de un cliente detenido ilegalmente por más
+                                        de 48 horas sin cargos.</li>
+                                    <li><strong>Caso 2:</strong> Anulación de una detención ilegal por falta de pruebas
+                                        suficientes.</li>
+                                </ul>
+
+                                <h3>Testimonios</h3>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Gracias a CorralesAbogado, fui liberado de una detención injusta y
+                                        pude reunirme con mi familia rápidamente."</p>
+                                    <footer class="blockquote-footer">Cliente agradecido</footer>
+                                </blockquote>
+
+                                <h3>FAQ</h3>
+                                <div class="accordion" id="habeasCorpusFAQ">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="true"
+                                                aria-controls="collapseThree">
+                                                ¿Qué es un habeas corpus?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingThree" data-bs-parent="#habeasCorpusFAQ">
+                                            <div class="accordion-body">
+                                                El habeas corpus es un recurso legal que permite a una persona detenida
+                                                impugnar la legalidad de su detención.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                ¿Cuándo se puede presentar un habeas corpus?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#habeasCorpusFAQ">
+                                            <div class="accordion-body">
+                                                Un habeas corpus puede presentarse en cualquier momento en que una
+                                                persona esté detenida ilegalmente o su detención no esté justificada.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3>Recursos Adicionales</h3>
+                                <ul>
+                                    <li><a href="#">Cómo presentar un habeas corpus</a></li>
+                                    <li><a href="#">Derechos del detenido</a></li>
+                                </ul>
+
+                                <h3>Video Informativo</h3>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"
+                                        src="https://www.youtube.com/embed/example_video" allowfullscreen></iframe>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="message" rows="3" placeholder="Ingrese su mensaje" required></textarea>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                            </div>
-                            <div class="form-text text-center mt-3">
-                                <p><strong>Te responderemos en las próximas 24 horas.</strong></p>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Añadir otras secciones de servicio aquí -->
             </div>
         </div>
     </section>
-
 
     <footer class="container-fluid">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-md-4 mb-5 mt-4">
                     <div class="footer-links">
-                        <h2>Contactenos</h2>
+                        <p><strong>Navegación</strong></p>
                         <p><a href="#" class="aEnlace">Servicios</a></p>
                         <p><a href="#" class="aEnlace">Precios</a></p>
                         <p><a href="#" class="aEnlace">Sobre nosotros</a></p>
@@ -143,8 +266,8 @@
                 </div>
                 <div class="col-12 col-md-4 mb-5 mt-4">
                     <p><strong>Contacto</strong></p>
-                    <p><a href="mailto:tosogud540@gmail.com" class="aEnlace">Email: tosogud540@gmail.com</a></p>
-                    <p><a href="tel:+50661803558" class="aEnlace">Teléfono: +506 6180-3558</a></p>
+                    <p><a href="#" class="aEnlace">Email: tosogud540@gmail.com</a></p>
+                    <p><a href="#" class="aEnlace">Teléfono: +506 6180-3558</a></p>
                 </div>
             </div>
             <div class="footer-bottom text-center">
@@ -153,7 +276,12 @@
         </div>
     </footer>
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="JavaScript/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

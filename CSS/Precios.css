@@ -1,0 +1,140 @@
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.custom-table thead th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.custom-table tbody td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+.custom-table tbody tr:hover td {
+    background-color: #e9ecef;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.custom-table p a.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-table p a.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Estilos para la sección de preguntas frecuentes (FAQs) */
+h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #007bff;
+    font-weight: bold;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.accordion-item:hover {
+    transform: translateY(-5px);
+}
+
+.accordion-body {
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #007bff;
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

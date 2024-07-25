@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/CSS/Navbar.css">
     <link rel="stylesheet" href="/CSS/Index.css">
     <link rel="stylesheet" href="/CSS/contactenos.css">
+    <link rel="stylesheet" href="/CSS/Servicios.css">
+    <link rel="stylesheet" href="/CSS/Precios.css">
     <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Abogado</title>
@@ -19,78 +21,328 @@
 
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-          <a class="navbar-brand" href="Index.html">Abogado Corrales</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="Index.html">Inicio</a>
-              <a class="nav-link" href="Servicios.html">Servicios</a>
-              <a class="nav-link" href="#">Precios</a>
-              <a class="nav-link" href="Contactenos.html">Contactenos</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-
-    <section class="container-fluid bg-light py-5">
-        <div class="container">
-            <div class="row text-center">
-                <div class="row justify-content-center align-items-center">
-                    <div class="container text-center">
-                        <div class="row justify-content-center">
-                            <h2 class="mb-5">Servicios</h2>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <h2><i class="fas fa-gavel"></i> Recursos de Amparo</h2>
-                                <p>
-                                    Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
-                                    constitucionales de una persona que considera que están siendo vulnerados por alguna
-                                    autoridad pública.
-                                </p>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <h2><i class="fas fa-balance-scale"></i> Habeas Corpus</h2>
-                                <p>
-                                    Podría referirse a programas o servicios de asistencia legal ofrecidos a personas
-                                    que no pueden costear servicios de abogados privados, proporcionándoles orientación
-                                    y representación legal en ciertos casos.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <h2><i class="fas fa-file-alt"></i> Escritos Legales</h2>
-                                <p>
-                                    Este es un procedimiento legal que permite a una persona detenida impugnar la
-                                    legalidad de su detención o encarcelamiento. Se utiliza para asegurar que la persona
-                                    detenida no esté siendo privada ilegalmente de su libertad.
-                                </p>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <h2><i class="fas fa-balance-scale-right"></i> Consultas en Obligaciones y Familia</h2>
-                                <p>
-                                    Son documentos escritos presentados ante un tribunal u otra autoridad legal que
-                                    contienen argumentos, hechos y leyes aplicables en apoyo de una posición en un caso
-                                    legal.
-                                </p>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <h2><i class="fas fa-users"></i> Asistente Legal</h2>
-                                <p>
-                                    Se refiere a buscar asesoramiento legal en cuestiones relacionadas con obligaciones
-                                    contractuales o derechos y responsabilidades familiares, como divorcios, custodia de
-                                    niños, o manutención familiar.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <a class="navbar-brand" href="Index.html">Abogado Corrales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="Index.html">Inicio</a>
+                    <a class="nav-link" href="Servicios.html">Servicios</a>
+                    <a class="nav-link" href="Precios.html">Precios</a>
+                    <a class="nav-link" href="Contactenos.html">Contactenos</a>
                 </div>
             </div>
         </div>
+    </nav>
+
+
+    <section class="container-fluid py-5">
+        <div class="container text-center contact-section">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una amplia gama de servicios legales diseñados para satisfacer sus necesidades específicas.</p>
+        </div>
     </section>
+
+
+
+    <section class="container-fluid py-5">
+        <div class="container text-center">
+            <div class="projcard-container">
+
+                <!-- Recursos de Amparo -->
+                <div class="projcard projcard-blue">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src="/img/Recursos_Amparo.jpg" alt="Imagen de Recursos de Amparo" />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Recursos de Amparo</div>
+                            <div class="projcard-subtitle">Protección de derechos constitucionales</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">
+                                Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
+                                constitucionales de una persona que considera que están siendo vulnerados por alguna
+                                autoridad pública.
+                            </div>
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amparoModal">Más
+                                información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Recurso de Amparo -->
+
+
+                <!-- Habeas Corpus -->
+                <div class="projcard projcard-red">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src="/img/Habeas_Corpus.png" alt="Imagen de Habeas Corpus" />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Habeas Corpus</div>
+                            <div class="projcard-subtitle">Asistencia legal para personas sin recursos</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">
+                                Podría referirse a programas o servicios de asistencia legal ofrecidos a personas que no
+                                pueden costear servicios de abogados privados, proporcionándoles orientación y
+                                representación legal en ciertos casos.
+                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#habeasCorpusModal">Más información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Escritos Legales -->
+                <div class="projcard projcard-green">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src="/img/Escritos_Legales.png" alt="Imagen de Escritos Legales" />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Escritos Legales</div>
+                            <div class="projcard-subtitle">Impugnación de detenciones ilegales</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">
+                                Este es un procedimiento legal que permite a una persona detenida impugnar la legalidad
+                                de su detención o encarcelamiento. Se utiliza para asegurar que la persona detenida no
+                                esté siendo privada ilegalmente de su libertad.
+                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#escritosLegalesModal">Más información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Consultas en Obligaciones y Familia -->
+                <div class="projcard projcard-yellow">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src="/img/Consultas en Obligaciones y Familia.jpg"
+                            alt="Imagen de Consultas en Obligaciones y Familia" />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Consultas en Obligaciones y Familia</div>
+                            <div class="projcard-subtitle">Documentación y asesoría en casos familiares</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">
+                                Son documentos escritos presentados ante un tribunal u otra autoridad legal que
+                                contienen argumentos, hechos y leyes aplicables en apoyo de una posición en un caso
+                                legal.
+                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#consultasModal">Más información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Asistente Legal -->
+                <div class="projcard projcard-orange">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src="/img/Asistente Legal.png" alt="Imagen de Asistente Legal" />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Asistente Legal</div>
+                            <div class="projcard-subtitle">Asesoría en derechos y responsabilidades</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">
+                                Se refiere a buscar asesoramiento legal en cuestiones relacionadas con obligaciones
+                                contractuales o derechos y responsabilidades familiares, como divorcios, custodia de
+                                niños, o manutención familiar.
+                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#asistenteLegalModal">Más información</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ================================== INCIO DEL MODAL ================================== -->
+
+    <!-- Modal Recursos de Amparo -->
+    <div class="modal fade" id="amparoModal" tabindex="-1" aria-labelledby="amparoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="amparoModalLabel">Recursos de Amparo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="/img/Recursos_Amparo.jpg" alt="Imagen de Recursos de Amparo" />
+                    </div>
+                    <p class="modal-description">
+                        Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
+                        constitucionales de una persona que considera que están siendo vulnerados por alguna autoridad
+                        pública.
+                    </p>
+                    <h6>¿Cómo funciona?</h6>
+                    <ul>
+                        <li>Presentación de la solicitud ante el juez.</li>
+                        <li>Evaluación de la vulneración de derechos.</li>
+                        <li>Resolución y posibles medidas compensatorias.</li>
+                    </ul>
+                    <h6>Beneficios</h6>
+                    <p>Este recurso garantiza que los derechos fundamentales sean respetados y puede proporcionar una
+                        solución rápida a la violación de los derechos constitucionales.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/Contactenos.html" class="btn btn-primary">Contacteme</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Escritos Legales -->
+    <div class="modal fade" id="escritosLegalesModal" tabindex="-1" aria-labelledby="escritosLegalesModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="escritosLegalesModalLabel">Escritos Legales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="/img/Escritos_Legales.png" alt="Imagen de Escritos Legales" />
+                    </div>
+                    <p class="modal-description">
+                        Los escritos legales son documentos redactados para presentar peticiones, demandas o solicitudes
+                        ante una autoridad judicial o administrativa.
+                    </p>
+                    <h6>Tipos de Escritos</h6>
+                    <ul>
+                        <li>Demandas judiciales.</li>
+                        <li>Recursos de apelación.</li>
+                        <li>Solicitudes administrativas.</li>
+                    </ul>
+                    <h6>Importancia</h6>
+                    <p>Un buen escrito legal puede ser crucial para el éxito de un caso, ya que presenta de manera
+                        formal y clara los argumentos y evidencias necesarios.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/Contactenos.html" class="btn btn-primary">Contacteme</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Consultas en Obligaciones y Familia -->
+    <div class="modal fade" id="consultasModal" tabindex="-1" aria-labelledby="consultasModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="consultasModalLabel">Consultas en Obligaciones y Familia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="/img/Consultas en Obligaciones y Familia.jpg"
+                            alt="Imagen de Consultas en Obligaciones y Familia" />
+                    </div>
+                    <p class="modal-description">
+                        Las consultas sobre obligaciones se centran en aclarar los deberes legales que tiene una persona
+                        o entidad según la legislación vigente.
+                    </p>
+                    <h6>Áreas Comunes</h6>
+                    <ul>
+                        <li>Obligaciones contractuales.</li>
+                        <li>Responsabilidad civil.</li>
+                        <li>Deberes fiscales y tributarios.</li>
+                    </ul>
+                    <h6>Asesoría</h6>
+                    <p>Contar con asesoría adecuada puede ayudar a evitar problemas legales y asegurar el cumplimiento
+                        de todas las obligaciones pertinentes.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/Contactenos.html" class="btn btn-primary">Contacteme</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Asistente Legal -->
+    <div class="modal fade" id="asistenteLegalModal" tabindex="-1" aria-labelledby="asistenteLegalModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="asistenteLegalModalLabel">Asistente Legal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="/img/Asistente Legal.png" alt="Imagen de Asistente Legal" />
+                    </div>
+                    <p class="modal-description">
+                        La asistencia legal proporciona apoyo en situaciones legales que requieren intervención
+                        profesional para resolver problemas o disputas.
+                    </p>
+                    <h6>Servicios Ofrecidos</h6>
+                    <ul>
+                        <li>Asesoría en litigios.</li>
+                        <li>Representación en juicios.</li>
+                        <li>Consultoría en derecho corporativo y personal.</li>
+                    </ul>
+                    <h6>Beneficios</h6>
+                    <p>Recibir asistencia legal adecuada puede ayudar a proteger tus derechos, resolver conflictos de
+                        manera efectiva y obtener soluciones legales óptimas.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/Contactenos.html" class="btn btn-primary">Contacteme</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Habeas Corpus -->
+    <div class="modal fade" id="habeasCorpusModal" tabindex="-1" aria-labelledby="habeasCorpusModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="habeasCorpusModalLabel">Habeas Corpus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="/img/Habeas_Corpus.png" alt="Imagen de Habeas Corpus" />
+                    </div>
+                    <p class="modal-description">
+                        El habeas corpus es un recurso legal para proteger a una persona contra detenciones arbitrarias
+                        o ilegales y garantizar su derecho a la libertad personal.
+                    </p>
+                    <h6>Procedimiento</h6>
+                    <ul>
+                        <li>Presentación del recurso ante un juez.</li>
+                        <li>Evaluación de la legalidad de la detención.</li>
+                        <li>Decisión sobre la liberación o confirmación de la detención.</li>
+                    </ul>
+                    <h6>Importancia</h6>
+                    <p>Este recurso es fundamental para asegurar que ninguna persona sea detenida sin una justificación
+                        legal válida.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/Contactenos.html" class="btn btn-primary">Contacteme</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -129,6 +381,7 @@
 
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
