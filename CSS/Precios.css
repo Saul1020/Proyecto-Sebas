@@ -49,92 +49,41 @@
     transform: scale(1.05);
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes slideInDown {
-    0% {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+/* ================ Seccion de preguntas ================ */
 
-
-/* Estilos para la sección de preguntas frecuentes (FAQs) */
-h2 {
-    font-size: 2.5rem;
-    color: #007bff;
+.faq-title {
+    font-size: 2rem;
+    color: #000000; /* Color oscuro para el título */
     text-align: center;
-    margin-bottom: 1.5rem;
-    animation: fadeIn 1s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .accordion-button {
-    background-color: #f8f9fa;
-    color: #007bff;
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 5px;
     font-weight: bold;
-    border: 1px solid #007bff;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.accordion-button:hover,
-.accordion-button:not(.collapsed) {
-    background-color: #007bff;
-    color: #ffffff;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-}
-
-.accordion-item {
-    border: none;
-    border-bottom: 1px solid #dee2e6;
-    transition: transform 0.3s ease;
-}
-
-.accordion-item:not(:last-of-type) {
-    margin-bottom: 0.5rem;
-}
-
-.accordion-item:hover {
-    transform: translateY(-5px);
+.accordion-button:hover {
+    background-color: #2980b9; /* Color al pasar el cursor */
 }
 
 .accordion-body {
-    background-color: #f2f2f2;
-    color: #333333;
-    padding: 1rem 1.5rem;
-    border-top: 1px solid #007bff;
-    animation: slideIn 0.5s ease;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    color: #34495e; /* Color del texto del contenido */
+    border-top: 1px solid #ddd; /* Línea de separación */
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.accordion-item {
+    margin-bottom: 10px;
 }
 
-@keyframes slideIn {
-    0% {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+.accordion-button:not(.collapsed) {
+    color: #ffffff; /* Color del texto cuando está expandido */
+    background-color: #2980b9; /* Color del fondo cuando está expandido */
 }
