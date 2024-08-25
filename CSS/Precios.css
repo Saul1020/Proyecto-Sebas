@@ -1,0 +1,89 @@
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.custom-table thead th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.custom-table tbody td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+.custom-table tbody tr:hover td {
+    background-color: #e9ecef;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.custom-table p a.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-table p a.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+
+/* ================ Seccion de preguntas ================ */
+
+.faq-title {
+    font-size: 2rem;
+    color: #000000; /* Color oscuro para el título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #2980b9; /* Color al pasar el cursor */
+}
+
+.accordion-body {
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    color: #34495e; /* Color del texto del contenido */
+    border-top: 1px solid #ddd; /* Línea de separación */
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff; /* Color del texto cuando está expandido */
+    background-color: #2980b9; /* Color del fondo cuando está expandido */
+}

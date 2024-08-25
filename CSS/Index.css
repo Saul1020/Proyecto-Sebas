@@ -1,0 +1,141 @@
+
+/* Estilo para el index (Servicios)*/
+.container_sobre_mi{
+  padding: 50px 0px 0px 0px;
+}
+
+.imgSeccion{
+    border-radius: 10px
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%; 
+    max-width: 18rem; 
+  }
+
+
+/* Tabla */
+
+
+/* Asesiria */
+.cta-section {
+    background-color: #f8f9fa; /* Azul profundo para el fondo */
+    color: #000000;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+
+  .cta-section h2 {
+    font-size: 2.25rem; /* Tamaño del título */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .cta-section p {
+    font-size: 1.15rem; /* Tamaño del texto */
+    margin-bottom: 25px;
+    max-width: 500px; /* Ancho máximo del texto */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-button {
+    background-color: #93a393; /* Verde oscuro */
+    color: #000000;
+    border: none;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px; /* Bordes redondeados */
+    font-size: 1.125rem; /* Tamaño del texto del botón */
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+  }
+
+  .cta-button:hover,
+  .cta-button:focus {
+    background-color: #513d97; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+  }
+
+  .cta-button:active {
+    transform: scale(0.98); /* Efecto de pulsación */
+  }
+
+
+
+
+/* Color del boton carousel*/
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+
+
+
+/* Estilos específicos para la sección de precios */
+
+
+.pricing-section h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+.pricing-table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 15px;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
+
+.pricing-table thead th {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.pricing-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pricing-table tbody tr:hover {
+  cursor: pointer;
+}
+
+.pricing-note {
+  font-style: italic;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .pricing-table th,
+  .pricing-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .pricing-section {
+    padding: 20px;
+  }
+}
