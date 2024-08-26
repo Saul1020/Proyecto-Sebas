@@ -21,11 +21,11 @@
                     <div class="projcard-innerbox">
                         <img class="projcard-img" src="/img/Recursos_Amparo.jpg" alt="Imagen de Recursos de Amparo" />
                         <div class="projcard-textbox">
-                            <div class="projcard-title">Recursos de Amparo</div>
+                            <div class="projcard-title">Constitucionales</div>
                             <div class="projcard-subtitle">Protección de derechos constitucionales</div>
                             <div class="projcard-bar"></div>
                             <div class="projcard-description">
-                                Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
+                                El area constitucional es una acción legal que se utiliza para proteger los derechos
                                 constitucionales de una persona que considera que están siendo vulnerados por alguna
                                 autoridad pública.
                             </div>
@@ -43,7 +43,7 @@
                     <div class="projcard-innerbox">
                         <img class="projcard-img" src="/img/Habeas_Corpus.png" alt="Imagen de Habeas Corpus" />
                         <div class="projcard-textbox">
-                            <div class="projcard-title">Habeas Corpus</div>
+                            <div class="projcard-title">Penal</div>
                             <div class="projcard-subtitle">Asistencia legal para personas sin recursos</div>
                             <div class="projcard-bar"></div>
                             <div class="projcard-description">
@@ -101,7 +101,7 @@
                     <div class="projcard-innerbox">
                         <img class="projcard-img" src="/img/Asistente Legal.png" alt="Imagen de Asistente Legal" />
                         <div class="projcard-textbox">
-                            <div class="projcard-title">Asistente Legal</div>
+                            <div class="projcard-title">Civil</div>
                             <div class="projcard-subtitle">Asesoría en derechos y responsabilidades</div>
                             <div class="projcard-bar"></div>
                             <div class="projcard-description">
@@ -128,28 +128,29 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="amparoModalLabel">Recursos de Amparo</h5>
+                    <h5 class="modal-title" id="amparoModalLabel">Constitucionales</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="modal-img">
-                        <img src="/img/Recursos_Amparo.jpg" alt="Imagen de Recursos de Amparo" />
+                <div class="modal-img">
+                    <img src="/img/Recursos_Amparo.jpg" alt="Imagen de Recursos de Amparo" />
                     </div>
+                    <h6>¿Qué le ofrecemos?</h6>
                     <p class="modal-description">
-                        Un recurso de amparo es una acción legal que se utiliza para proteger los derechos
-                        constitucionales de una persona que considera que están siendo vulnerados por alguna autoridad
-                        pública.
+                        Nos comprometemos a proteger todos sus derechos constitucionales a través de diversos medios, basados en un 
+                        conocimiento profesional profundo del tema e implementando las normas y leyes pertinentes. Utilizamos recursos 
+                        de amparo con una base legal sólida para maximizar las probabilidades de que se cumplan las peticiones que usted 
+                        solicite.
                     </p>
-                    <h6>¿Cómo funciona?</h6>
+
+                    <h6>Medios</h6>
                     <ul>
-                        <li>Presentación de la solicitud ante el juez.</li>
-                        <li>Evaluación de la vulneración de derechos.</li>
-                        <li>Resolución y posibles medidas compensatorias.</li>
+                        <li>Asesoría legal especializada</li>
+                        <li>Recursos de amparo con base legal sólida</li>
+                        <li>Habeas Corpus para garantizar su derecho a la libertad</li>
                     </ul>
-                    <h6>Beneficios</h6>
-                    <p>Este recurso garantiza que los derechos fundamentales sean respetados y puede proporcionar una
-                        solución rápida a la violación de los derechos constitucionales.</p>
                 </div>
+
                 <div class="modal-footer">
                     <a href="/Contactenos.php" class="btn btn-primary">Contacteme</a>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -172,19 +173,22 @@
                     <div class="modal-img">
                         <img src="/img/Escritos_Legales.png" alt="Imagen de Escritos Legales" />
                     </div>
+                    <h6>¿Qué le ofrecemos?</h6>
                     <p class="modal-description">
-                        Los escritos legales son documentos redactados para presentar peticiones, demandas o solicitudes
-                        ante una autoridad judicial o administrativa.
+                    En relación con los escritos legales, le ofrecemos la elaboración de una respuesta legal bien fundamentada. Esto incluye 
+                    la preparación de documentos para una contestación o una demanda, asegurando que cada escrito esté argumentado y respaldado 
+                    por la normativa vigente, para una defensa sólida y efectiva en el proceso legal.
                     </p>
-                    <h6>Tipos de Escritos</h6>
+
+                    <h6>Medios</h6>
                     <ul>
-                        <li>Demandas judiciales.</li>
-                        <li>Recursos de apelación.</li>
-                        <li>Solicitudes administrativas.</li>
+                        <li>Demandas</li>
+                        <li>Recursos de amparo</li>
+                        <li>Contestaciones</li>
+                        <li>Interdictos</li>
+                        <li>Cartas de renuncia</li>
+                        <li>Habeas corpus</li>
                     </ul>
-                    <h6>Importancia</h6>
-                    <p>Un buen escrito legal puede ser crucial para el éxito de un caso, ya que presenta de manera
-                        formal y clara los argumentos y evidencias necesarios.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="/Contactenos.php" class="btn btn-primary">Contacteme</a>
@@ -208,19 +212,24 @@
                         <img src="/img/Consultas en Obligaciones y Familia.jpg"
                             alt="Imagen de Consultas en Obligaciones y Familia" />
                     </div>
+                    <h6>¿Qué le ofrecemos?</h6>
                     <p class="modal-description">
-                        Las consultas sobre obligaciones se centran en aclarar los deberes legales que tiene una persona
-                        o entidad según la legislación vigente.
+                    Aquí nos comprometemos a asegurar que cada persona tenga una familia estable y que todos sus derechos sean respetados 
+                    para el adecuado desarrollo de cada miembro. Para lograr esto, utilizaremos todos los medios necesarios, ya sea presentando 
+                    denuncias por violencia doméstica, brindando una defensa efectiva para quienes sean acusados, o estableciendo una pensión 
+                    adecuada que se ajuste a sus necesidades y al presupuesto que usted, como cliente, pueda proporcionar.
                     </p>
-                    <h6>Áreas Comunes</h6>
+
+                    <h6>Medios</h6>
                     <ul>
-                        <li>Obligaciones contractuales.</li>
-                        <li>Responsabilidad civil.</li>
-                        <li>Deberes fiscales y tributarios.</li>
+                        <li>Denuncias de violencia doméstica</li>
+                        <li>Acompañamiento para la defensa en casos de violencia doméstica</li>
+                        <li>Pensión alimentaria</li>
+                        <li>Asesoramiento legal</li>
+                        <li>Guía en el proceso de adopción</li>
+                        <li>Guía en el proceso de divorcio</li>
+                        <li>Guía en el proceso matrimonial (personal o de pareja)</li>
                     </ul>
-                    <h6>Asesoría</h6>
-                    <p>Contar con asesoría adecuada puede ayudar a evitar problemas legales y asegurar el cumplimiento
-                        de todas las obligaciones pertinentes.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="/Contactenos.php" class="btn btn-primary">Contacteme</a>
@@ -237,26 +246,29 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="asistenteLegalModalLabel">Asistente Legal</h5>
+                    <h5 class="modal-title" id="asistenteLegalModalLabel">Civil</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="modal-img">
                         <img src="/img/Asistente Legal.png" alt="Imagen de Asistente Legal" />
                     </div>
+                    <h6>¿Qué le ofrecemos?</h6>
                     <p class="modal-description">
-                        La asistencia legal proporciona apoyo en situaciones legales que requieren intervención
-                        profesional para resolver problemas o disputas.
+                    En esta área, nos esforzamos por asegurar que usted tenga un proceso óptimo, ya sea para gestionar una deuda o 
+                    defender sus derechos patrimoniales. Abordaremos una amplia variedad de temas y responderemos cada una de sus 
+                    dudas para garantizar que usted esté completamente informado y respaldado
                     </p>
-                    <h6>Servicios Ofrecidos</h6>
+
+                    <h6>Medios</h6>
                     <ul>
-                        <li>Asesoría en litigios.</li>
-                        <li>Representación en juicios.</li>
-                        <li>Consultoría en derecho corporativo y personal.</li>
+                        <li>Interdictos</li>
+                        <li>Demandas</li>
+                        <li>Contestaciones</li>
+                        <li>Solicitud de servidumbres forzosas</li>
+                        <li>Procedimientos relacionados con el derecho comercial</li>
+                        <li>Asesoría legal</li>
                     </ul>
-                    <h6>Beneficios</h6>
-                    <p>Recibir asistencia legal adecuada puede ayudar a proteger tus derechos, resolver conflictos de
-                        manera efectiva y obtener soluciones legales óptimas.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="/Contactenos.php" class="btn btn-primary">Contacteme</a>
@@ -273,26 +285,27 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="habeasCorpusModalLabel">Habeas Corpus</h5>
+                    <h5 class="modal-title" id="habeasCorpusModalLabel">Penal</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="modal-img">
                         <img src="/img/Habeas_Corpus.png" alt="Imagen de Habeas Corpus" />
                     </div>
+                    <h6>¿Qué le ofrecemos?</h6>
                     <p class="modal-description">
-                        El habeas corpus es un recurso legal para proteger a una persona contra detenciones arbitrarias
-                        o ilegales y garantizar su derecho a la libertad personal.
+                    En esta área, buscamos ofrecer un asesoramiento legal óptimo para garantizar un proceso justo y conforme a la ley. 
+                    Tomaremos las medidas necesarias para cada caso, asegurando así una defensa adecuada y evitando que se le imponga 
+                    una pena injusta.
                     </p>
-                    <h6>Procedimiento</h6>
+
+                    <h6>Medios</h6>
                     <ul>
-                        <li>Presentación del recurso ante un juez.</li>
-                        <li>Evaluación de la legalidad de la detención.</li>
-                        <li>Decisión sobre la liberación o confirmación de la detención.</li>
+                        <li>Defensa penal</li>
+                        <li>Asesoramiento legal</li>
+                        <li>Preparación de testigos</li>
+                        <li>Verificación de pruebas favorables al caso</li>
                     </ul>
-                    <h6>Importancia</h6>
-                    <p>Este recurso es fundamental para asegurar que ninguna persona sea detenida sin una justificación
-                        legal válida.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="/Contactenos.php" class="btn btn-primary">Contacteme</a>

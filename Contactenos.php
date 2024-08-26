@@ -18,7 +18,7 @@
             <h2 class="text-center mb-3">Información de Contacto</h2>
             <div class="contact-info text-center">
                 <div class="d-flex justify-content-center align-items-center mb-3">
-                    <p><i class="fas fa-phone"></i><strong>Teléfono:</strong> +123 456 7890</p>
+                    <p><i class="fas fa-phone"></i><strong>Teléfono:</strong> +506 6180 3558</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center mb-3">
                     <p><i class="fas fa-envelope"></i><strong>Correo Electrónico:</strong> contacto@bufetellegal.com</p>
@@ -90,7 +90,7 @@
                             $email = htmlspecialchars($_POST["email"]);
                             $mensaje = htmlspecialchars($_POST["mensaje"]);
                         
-                            $destino = "saulserrano646@gmail.com";
+                            $destino = "sjcorrales.chinchilla77@gmail.com";
                             $asunto = "Nuevo mensaje de $email";
                         
                             // Contenido del correo en HTML
@@ -134,7 +134,6 @@
                             </html>
                             ";
                         
-                            // Cabeceras para enviar el correo en formato HTML
                             $header = "MIME-Version: 1.0" . "\r\n";
                             $header .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                             $header .= "From: memocode@soft.com" . "\r\n";
@@ -149,7 +148,7 @@
                             }
                         }
                         
-                        ob_end_flush(); // Envía el contenido del búfer al navegador
+                        ob_end_flush(); 
                         ?>
                         
 
