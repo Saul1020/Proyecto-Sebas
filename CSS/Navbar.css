@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
-.navbar-custom {
-  background-color: #2d2d30;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-}
-
 .navbar-brand {
-  font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   color: #ffffff;
   font-weight: 600;
@@ -26,36 +10,21 @@
   margin-left: 1rem;
 }
 
-.navbar-brand:hover {
-  color: #007bff;
-}
 
 .navbar-nav .nav-link {
-  font-family: 'Raleway', sans-serif;
   color: #ffffff;
   font-size: 1rem;
   margin: 0 1rem;
   padding: 0.5rem 0;
   transition: color 0.3s ease, transform 0.3s ease;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-nav .nav-link:hover {
   color: #6ed9e7;
-  text-decoration: none;
   transform: scale(1.1);
 }
 
-.navbar-toggler {
-  border: none;
-  border-radius: 0.25rem;
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-right: 1rem;
-}
 
 .navbar-toggler:hover {
   background-color: #0056b3;
@@ -79,35 +48,32 @@
   transition: all 0.3s ease;
 }
 
+/* Estilos adicionales del navbar */
 .navbar {
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
-  font-size: 11px !important;
+  font-size: 11p;
   letter-spacing: 4px;
-  opacity: 0.9;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar li a, .navbar .navbar-brand {
-  color: #ffffff !important;
-}
-
-.navbar-nav li a:hover {
-  color: #007bff !important;
+  color: #ffffff 
 }
 
 .navbar-nav li.active a {
-  color: #ffffff !important;
-  background-color: #29292c !important;
+  color: #ffffff ;
+  background-color: #29292c ;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
 
+/* Estilos para dispositivos móviles */
 @media (max-width: 767.98px) {
   .navbar-custom {
     background-color: #1a1a1a;
@@ -126,10 +92,6 @@
     transition: transform 0.3s ease;
   }
 
-  .navbar-nav.show {
-    display: block;
-    transform: translateY(0);
-  }
 
   .nav-link {
     color: #ffffff;
@@ -150,12 +112,6 @@
     margin-bottom: 1rem;
     text-align: center;
     margin-left: 0;
-  }
-
-  .navbar-toggler {
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    margin-right: 0;
   }
 
   .navbar-toggler-icon {

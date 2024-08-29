@@ -1,32 +1,4 @@
-
-/* Parte del Contactenos */
-
-/* header */
-.contact-section {
-    background-color: #f8f9fa;
-    padding: 3rem 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-section h2 {
-    color: #343a40;
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-  
-  .contact-section p {
-    color: #6c757d;
-    font-size: 1.125rem;
-    line-height: 1.5;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  
-  
-  /* Parte del formulario y de Whatsapp*/
+/* Parte del formulario y de Whatsapp*/
   
   /* Whatsapp */
   .contact-info i {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -149,7 +152,7 @@
 
 /* Estilo para el index (Servicios) */
 .container_sobre_mi {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .imgSeccion {
@@ -159,12 +162,12 @@
 .card-body {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centra verticalmente el contenido */
+  justify-content: center;
 }
 
 .card {
   width: 100%;
-  max-width: 22rem; /* Ajustado para mayor flexibilidad */
+  max-width: 22rem; 
 }
 
 /* Asesoría */

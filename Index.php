@@ -5,7 +5,7 @@
 <!-- Sobre mi -->
 <section class="hero-section">
     <div class="bg-image-wrapper">
-        <img src="/img/1.png" class="img-fluid bg-image" alt="Imagen de fondo">
+        <img src="/img/2.png" class="img-fluid bg-image" alt="Imagen de fondo">
     </div>
     <div class="hero-content">
         <h1 class="hero-title">Protejo tus derechos con dedicación y experiencia</h1>
@@ -21,26 +21,15 @@
 
 
 <!-- Sección de contenido alternativo para móviles -->
-<section class="mobile-section">
-    <div class="mobile-content">
-        <h1 class="mobile-title">Asesoría Legal</h1>
-        <p class="mobile-description">
-            Abogado especializado en derecho, comprometido a ofrecer soluciones jurídicas efectivas y personalizadas para cada caso.
+<section class="mobile-section bg-light py-5">
+    <div class="container text-center" >
+        <h1 class="display-4 mb-3" style="margin: 50px 0px;">Asesoría Legal</h1>
+        <p class="lead mb-4">
+            Abogado especializado en derecho, comprometido en ofrecer soluciones jurídicas efectivas adaptadas a tus necesidades.
         </p>
+        <a href="#" class="btn btn-primary btn-lg">Contáctame</a>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -96,9 +85,9 @@
 <!-- INICIO DE LOS SERVICIOS -->
 <section class="container-fluid btn-lg py-5">
   <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="display-4">Nuestros Servicios</h2>
-      <p class="lead">Explora nuestra gama de servicios legales diseñados para proteger tus derechos y resolver tus necesidades jurídicas.</p>
+    <div class="text-center mb-2">
+      <h2 class="display-6">Nuestros Servicios</h2>
+      <p class="">Explora nuestra gama de servicios legales diseñados para proteger tus derechos y resolver tus necesidades jurídicas.</p>
     </div>
     <div class="row justify-content-center align-items-center">
       <div class="col-md-8 col-lg-8">
@@ -169,6 +158,11 @@
 <section class="container-fluid py-5">
   <div class="container text-center contact-section-Tabla">
     <div class="table-responsive">
+    <h2 class="mb-4 text-center display-6">Precios</h2>
+    <p class="mb-4">A continuación, encontrarás una lista de nuestros servicios legales junto con los precios 
+      correspondientes. Estos precios son para servicios estándar y pueden variar dependiendo de la complejidad 
+      del caso o necesidades específicas. Para obtener una cotización más precisa y personalizada, no dudes en 
+      ponerte en contacto con nosotros.</p>
       <table class="table table-bordered custom-table">
         <thead>
           <tr>
@@ -205,7 +199,7 @@
           </tr>
         </tbody>
       </table>
-      <p class="mt-4">Para servicios específicos o casos más complejos, los precios pueden variar. Por favor para discutir su situación particular y recibir una cotización personalizada.</p>
+      <p class="mt-4"><strong>Para servicios específicos o casos más complejos, los precios pueden variar. Por favor para discutir su situación particular y recibir una cotización personalizada.</strong></p>
     </div>
   </div>
 </section>
@@ -215,7 +209,7 @@
 
 <!-- INICIO DE LOS TESTIMONIOS -->
 <section class="container py-5">
-  <h2 class="text-center mb-4 display-4">Testimonios</h2>
+  <h2 class="text-center mb-4 display-6">Testimonios</h2>
   <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">

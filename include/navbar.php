@@ -8,10 +8,10 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="Index.php">Inicio</a>
-        <a class="nav-link" href="Servicios.php">Servicios</a>
-        <a class="nav-link" href="Precios.php">Precios</a>
-        <a class="nav-link" href="Contactenos.php">Contáctenos</a>
+        <a class="nav-link" href="../Index.php">Inicio</a>
+        <a class="nav-link" href="../Servicios.php">Servicios</a>
+        <a class="nav-link" href="../Precios.php">Precios</a>
+        <a class="nav-link" href="../Contactenos.php">Contáctenos</a>
       </div>
     </div>
   </div>

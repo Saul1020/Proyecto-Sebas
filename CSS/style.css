@@ -1,8 +1,22 @@
-:root {
-    --primary-color: #ffffff;
-    --secondary-color: #f7f7f7;
-    --hover-color: #dddddd;
-    --text-color: #333333;
-    --link-color: #555555;
-    --font-family: Arial, sans-serif;
-}
+/* Titulos */
+.contact-section {
+    background-color: #2D2D30;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.heros {
+    background: #2D2D30;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.heros-contente h1 {
+    color: #e67e22;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.heros-content p {
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem 0;
+    background: #fafafa;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 2rem 0;
+}
+
+.pricing h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+    background: #fafafa;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #d35400;
+}
+
+/* Terms Section */
+.terms {
+    padding: 2rem 0;
+    background: #fafafa;
+}
+
+.terms h2 {
+    margin-bottom: 1rem;
+}
+
+.terms h3 {
+    margin-top: 1rem;
+}

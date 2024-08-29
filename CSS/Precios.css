@@ -54,27 +54,27 @@
 
 .faq-title {
     font-size: 2rem;
-    color: #000000; /* Color oscuro para el título */
+    color: #000000;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .accordion-button {
-    background-color: #3498db; /* Color de fondo del botón */
-    color: #ffffff; /* Color del texto del botón */
+    background-color: #3498db; 
+    color: #ffffff; 
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .accordion-button:hover {
-    background-color: #2980b9; /* Color al pasar el cursor */
+    background-color: #2980b9; 
 }
 
 .accordion-body {
-    background-color: #ffffff; /* Fondo blanco para el contenido */
-    color: #34495e; /* Color del texto del contenido */
-    border-top: 1px solid #ddd; /* Línea de separación */
+    background-color: #ffffff; 
+    color: #34495e; 
+    border-top: 1px solid #ddd; 
     padding: 20px;
     border-radius: 0 0 5px 5px;
 }
@@ -84,6 +84,6 @@
 }
 
 .accordion-button:not(.collapsed) {
-    color: #ffffff; /* Color del texto cuando está expandido */
-    background-color: #2980b9; /* Color del fondo cuando está expandido */
+    color: #ffffff; 
+    background-color: #2980b9; 
 }

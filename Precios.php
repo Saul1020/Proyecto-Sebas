@@ -6,7 +6,7 @@
 
 <section class="container-fluid py-5">
     <div class="container text-center contact-section">
-        <h2>Precios</h2>
+        <h2 class="display-4">Precios</h2>
         <p>Aquí puedes encontrar información detallada sobre nuestros precios y tarifas. Si tienes alguna pregunta o necesitas una cotización personalizada, no dudes en ponerte en contacto con nosotros.</p>
     </div>
 </section>
@@ -61,7 +61,7 @@
 <!-- SECCIÓN DE PREGUNTAS FRECUENTES -->
 <section class="faq-section py-5">
     <div class="container">
-        <h2 class="faq-title">Preguntas Frecuentes</h2>
+        <h2 class="faq-title display-6">Preguntas Frecuentes</h2>
         <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">

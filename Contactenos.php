@@ -15,7 +15,7 @@
 <section class="container py-5 mt-5">
     <div class="row justify-content-center">
         <div class="col-md-5 mb-4">
-            <h2 class="text-center mb-3">Información de Contacto</h2>
+            <h2 class="text-center mb-3 display-6">Información de Contacto</h2>
             <div class="contact-info text-center">
                 <div class="d-flex justify-content-center align-items-center mb-3">
                     <p><i class="fas fa-phone"></i><strong>Teléfono:</strong> +506 6180 3558</p>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="col-md-5 horarios-atencion">
-            <h2 class="text-center mb-3">Horarios de Atención</h2>
+            <h2 class="text-center mb-3 display-6">Horarios de Atención</h2>
             <div class="text-center">
                 <p>Lunes - Viernes: 9:00 AM - 6:00 PM</p>
                 <p>Consultas fuera de horario disponibles previa cita.</p>
@@ -56,11 +56,11 @@
 
 
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="formulario-contacto">
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="form-contact p-4">
-                        <h3 class="text-center mb-4">Formulario</h3>
+                    <h3 class="text-center mb-4">Cuéntame cómo te puedo ayudar</h3>
                         <form method="post">
                             <div class="mb-3">
                                 <label for="nombre" class="form-label">Nombre</label>
@@ -84,15 +84,15 @@
 
                         <?php
                         ob_start(); // Inicia el almacenamiento en búfer
-                        
+
                         if (isset($_POST["enviar"])) {
                             $nombre = htmlspecialchars($_POST["nombre"]);
                             $email = htmlspecialchars($_POST["email"]);
                             $mensaje = htmlspecialchars($_POST["mensaje"]);
-                        
+
                             $destino = "sjcorrales.chinchilla77@gmail.com";
                             $asunto = "Nuevo mensaje de $email";
-                        
+
                             // Contenido del correo en HTML
                             $contenido = "
                             <html>
@@ -133,26 +133,31 @@
                             </body>
                             </html>
                             ";
-                        
+
                             $header = "MIME-Version: 1.0" . "\r\n";
                             $header .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                             $header .= "From: memocode@soft.com" . "\r\n";
-                        
+
                             $mail = mail($destino, $asunto, $contenido, $header);
-                        
+
                             if ($mail) {
-                                echo "<script>alert('Se envió el correo');</script>";
-                                exit();
+                                echo "<div class='alert alert-success mt-4 text-center' role='alert'>
+                                        ¡Tu mensaje ha sido enviado con éxito!
+                                    </div>";
                             } else {
-                                echo "<script>alert('No se envió el correo');</script>";
+                                echo "<div class='alert alert-danger mt-4 text-center' role='alert'>
+                                        Hubo un error al enviar tu mensaje. Por favor, inténtalo nuevamente.
+                                    </div>";
                             }
+
+                            echo "<script>window.location.href='#formulario-contacto';</script>";
                         }
-                        
-                        ob_end_flush(); 
+
+                        ob_end_flush();
                         ?>
-                        
 
                     </div>
+
                 </div>
             </div>
         </div>
